@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="17506" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bO2-kh-ySW">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Избранное-->
+        <scene sceneID="Zbz-vG-gXw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="khc-Se-YLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="yM6-s8-0dV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hzW-ur-iyo"/>
+                        <viewControllerLayoutGuide type="bottom" id="DAD-5B-mqO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lKy-KY-mVx">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="b8M-gG-4Se"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Избранное" id="tfJ-n8-BUk">
+                        <imageReference key="image" image="star.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1316" y="-5554"/>
+        </scene>
+        <!--Сериалы-->
+        <scene sceneID="tE7-Sr-kmk">
+            <objects>
+                <viewController id="swI-FZ-fvS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ftz-gP-cmd"/>
+                        <viewControllerLayoutGuide type="bottom" id="g4V-nQ-nsz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MME-GI-gtt">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ywb-bN-6oY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Сериалы" id="2iE-0P-hvf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9U3-cX-hnn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="-2316"/>
+        </scene>
+        <!--TV-Шоу-->
+        <scene sceneID="ZoJ-eF-KAk">
+            <objects>
+                <viewController id="lS3-SS-3fJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tqs-LL-Rd8"/>
+                        <viewControllerLayoutGuide type="bottom" id="gVA-YX-KxW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i13-ag-9B8">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="32n-ST-pCu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TV-Шоу" id="fN6-Gy-tjh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eti-to-bdh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="-836"/>
+        </scene>
+        <!--Аниме-->
+        <scene sceneID="Wuc-e2-krg">
+            <objects>
+                <viewController id="MTz-12-qVk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jzc-EY-z4r"/>
+                        <viewControllerLayoutGuide type="bottom" id="SWu-GX-NEd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lW4-EE-o8t">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lA4-Tk-GJV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Аниме" id="atH-OQ-YiW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WK2-G1-Joc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="725"/>
+        </scene>
+        <!--Поиск-->
+        <scene sceneID="1r5-Ao-Gg5">
+            <objects>
+                <viewController id="sCG-MP-Qny" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iau-zO-B2X"/>
+                        <viewControllerLayoutGuide type="bottom" id="5oA-yp-ai8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMQ-PF-Wyp">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9JI-Tx-cio"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Поиск" id="XnZ-ZT-cZi">
+                        <imageReference key="image" image="magnifyingglass.circle.fill" catalog="system" symbolScale="large"/>
+                        <imageReference key="largeContentSizeImage" image="magnifyingglass.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFp-tR-sGq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="2353"/>
+        </scene>
+        <!--Фильмы-->
+        <scene sceneID="9X7-y0-Ues">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OV5-wN-FOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="lKC-iI-I0N" customClass="FilmsViewController" customModule="COSMOTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jaU-6d-LeU"/>
+                        <viewControllerLayoutGuide type="bottom" id="1N5-8v-I7D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ttc-qS-dgH">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="CgV-eM-ylC">
+                                <rect key="frame" x="96" y="537" width="1728" height="483"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NUw-Xg-wH4">
+                                    <size key="itemSize" width="264" height="385"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="mainCollectionCell" id="nOG-l5-0b5" customClass="collectionViewCell" customModule="COSMOTV" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="264" height="385"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="NUk-jM-SbR">
+                                            <rect key="frame" x="0.0" y="0.0" width="264" height="385"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="QJT-X2-P2o">
+                                                    <rect key="frame" x="0.0" y="0.0" width="264" height="385"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="264" id="Jjm-Na-0qN"/>
+                                                        <constraint firstAttribute="height" constant="385" id="Y4t-7N-uli"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Кремнивая долина" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fc1-cT-92t">
+                                                    <rect key="frame" x="8" y="308" width="248" height="69"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="69" id="4Mx-fB-iwq"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Thin" family="Apple SD Gothic Neo" pointSize="24"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Fc1-cT-92t" secondAttribute="bottom" constant="8" id="5kk-e3-Sys"/>
+                                                <constraint firstItem="QJT-X2-P2o" firstAttribute="top" secondItem="NUk-jM-SbR" secondAttribute="top" id="7Xa-Gf-92L"/>
+                                                <constraint firstItem="QJT-X2-P2o" firstAttribute="centerX" secondItem="NUk-jM-SbR" secondAttribute="centerX" id="C1Y-Sx-CSB"/>
+                                                <constraint firstAttribute="trailing" secondItem="Fc1-cT-92t" secondAttribute="trailing" constant="8" id="RTa-Mk-gFN"/>
+                                                <constraint firstItem="Fc1-cT-92t" firstAttribute="leading" secondItem="NUk-jM-SbR" secondAttribute="leading" constant="8" id="WXi-oB-yMA"/>
+                                                <constraint firstItem="QJT-X2-P2o" firstAttribute="centerY" secondItem="NUk-jM-SbR" secondAttribute="centerY" id="YSG-08-cTk"/>
+                                                <constraint firstItem="Fc1-cT-92t" firstAttribute="top" secondItem="NUk-jM-SbR" secondAttribute="top" constant="308" id="koO-0j-sAq"/>
+                                                <constraint firstItem="QJT-X2-P2o" firstAttribute="leading" secondItem="NUk-jM-SbR" secondAttribute="leading" id="rs2-OV-zew"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="264" height="385"/>
+                                        <connections>
+                                            <outlet property="image" destination="QJT-X2-P2o" id="yFI-jR-Z7L"/>
+                                            <outlet property="nameFilms" destination="Fc1-cT-92t" id="QC1-ZX-DqK"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TdF-Uq-EDU">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qta-ed-wQS"/>
+                        <constraints>
+                            <constraint firstItem="Qta-ed-wQS" firstAttribute="bottom" secondItem="CgV-eM-ylC" secondAttribute="bottom" id="1Qk-Cu-pb1"/>
+                            <constraint firstAttribute="bottom" secondItem="TdF-Uq-EDU" secondAttribute="bottom" id="1a7-kN-GV7"/>
+                            <constraint firstItem="CgV-eM-ylC" firstAttribute="leading" secondItem="Qta-ed-wQS" secondAttribute="leading" constant="16" id="NCE-iP-2H8"/>
+                            <constraint firstItem="Qta-ed-wQS" firstAttribute="trailing" secondItem="CgV-eM-ylC" secondAttribute="trailing" constant="16" id="RX6-jw-T7V"/>
+                            <constraint firstItem="CgV-eM-ylC" firstAttribute="top" secondItem="Qta-ed-wQS" secondAttribute="top" constant="380" id="Ssx-Qc-VvJ"/>
+                            <constraint firstItem="TdF-Uq-EDU" firstAttribute="leading" secondItem="Ttc-qS-dgH" secondAttribute="leading" id="ZWc-Ck-mbk"/>
+                            <constraint firstAttribute="trailing" secondItem="TdF-Uq-EDU" secondAttribute="trailing" id="b7h-KH-pPa"/>
+                            <constraint firstItem="TdF-Uq-EDU" firstAttribute="top" secondItem="Ttc-qS-dgH" secondAttribute="top" id="wfp-cq-Umv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Фильмы" id="KIT-qe-iA2"/>
+                    <connections>
+                        <outlet property="collectionView" destination="CgV-eM-ylC" id="9JP-uR-yhQ"/>
+                        <outlet property="imageViewMain" destination="TdF-Uq-EDU" id="vaU-AP-XsA"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1316" y="-3839"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mdH-7A-F57">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0vT-nb-bFe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController id="bO2-kh-ySW" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7v2-8Y-Ltc">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yM6-s8-0dV" kind="relationship" relationship="viewControllers" id="crw-gI-V4f"/>
+                        <segue destination="lKC-iI-I0N" kind="relationship" relationship="viewControllers" id="Bci-oq-QxL"/>
+                        <segue destination="swI-FZ-fvS" kind="relationship" relationship="viewControllers" id="hGU-Ne-UXq"/>
+                        <segue destination="lS3-SS-3fJ" kind="relationship" relationship="viewControllers" id="2pu-kb-Bih"/>
+                        <segue destination="MTz-12-qVk" kind="relationship" relationship="viewControllers" id="wjx-9W-SLk"/>
+                        <segue destination="sCG-MP-Qny" kind="relationship" relationship="viewControllers" id="sNO-CU-Tgq"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-6539" y="-2316"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default-placeholder" width="1500" height="1500"/>
+        <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="128"/>
+        <image name="star.circle.fill" catalog="system" width="128" height="128"/>
+    </resources>
+</document>

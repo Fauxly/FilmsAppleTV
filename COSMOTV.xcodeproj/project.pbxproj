@@ -7,22 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E823B8A2583F083007117DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823B892583F083007117DB /* AppDelegate.swift */; };
-		8E823B8D2583F084007117DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E823B8C2583F084007117DB /* Assets.xcassets */; };
-		8E823B902583F084007117DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E823B8E2583F084007117DB /* LaunchScreen.storyboard */; };
+		8E823BA62583F134007117DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BA52583F134007117DB /* AppDelegate.swift */; };
+		8E823BA82583F134007117DB /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BA72583F134007117DB /* FilmsViewController.swift */; };
+		8E823BAB2583F134007117DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E823BA92583F134007117DB /* Main.storyboard */; };
+		8E823BAD2583F135007117DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E823BAC2583F135007117DB /* Assets.xcassets */; };
+		8E823BB02583F135007117DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E823BAE2583F135007117DB /* LaunchScreen.storyboard */; };
+		8E823BC525840CC2007117DB /* GlobalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BC425840CC2007117DB /* GlobalVars.swift */; };
+		8E823BCA25840D65007117DB /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BC925840D65007117DB /* Films.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E823B862583F083007117DB /* COSMOTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COSMOTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E823B892583F083007117DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E823B8B2583F083007117DB /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
-		8E823B8C2583F084007117DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E823B8F2583F084007117DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E823B912583F084007117DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E823BA22583F134007117DB /* COSMOTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COSMOTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E823BA52583F134007117DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E823BA72583F134007117DB /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		8E823BAA2583F134007117DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E823BAC2583F135007117DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E823BAF2583F135007117DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E823BB12583F135007117DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E823BC425840CC2007117DB /* GlobalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVars.swift; sourceTree = "<group>"; };
+		8E823BC925840D65007117DB /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E823B832583F082007117DB /* Frameworks */ = {
+		8E823B9F2583F134007117DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,44 +39,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E823B7D2583F082007117DB = {
+		8E823B992583F134007117DB = {
 			isa = PBXGroup;
 			children = (
-				8E823B882583F083007117DB /* COSMOTV */,
-				8E823B872583F083007117DB /* Products */,
+				8E823BA42583F134007117DB /* COSMOTV */,
+				8E823BA32583F134007117DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E823B872583F083007117DB /* Products */ = {
+		8E823BA32583F134007117DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E823B862583F083007117DB /* COSMOTV.app */,
+				8E823BA22583F134007117DB /* COSMOTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E823B882583F083007117DB /* COSMOTV */ = {
+		8E823BA42583F134007117DB /* COSMOTV */ = {
 			isa = PBXGroup;
 			children = (
-				8E823B892583F083007117DB /* AppDelegate.swift */,
-				8E823B8B2583F083007117DB /* application.js */,
-				8E823B8C2583F084007117DB /* Assets.xcassets */,
-				8E823B8E2583F084007117DB /* LaunchScreen.storyboard */,
-				8E823B912583F084007117DB /* Info.plist */,
+				8E823BC825840D57007117DB /* Class */,
+				8E823BC325840CAD007117DB /* Global */,
+				8E823BBB2583F243007117DB /* Storyboard */,
+				8E823BBA2583F23B007117DB /* System */,
+				8E823BB92583F22F007117DB /* ViewController */,
+				8E823BAC2583F135007117DB /* Assets.xcassets */,
+				8E823BB12583F135007117DB /* Info.plist */,
 			);
 			path = COSMOTV;
+			sourceTree = "<group>";
+		};
+		8E823BB92583F22F007117DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E823BA72583F134007117DB /* FilmsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8E823BBA2583F23B007117DB /* System */ = {
+			isa = PBXGroup;
+			children = (
+				8E823BA52583F134007117DB /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		8E823BBB2583F243007117DB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8E823BAE2583F135007117DB /* LaunchScreen.storyboard */,
+				8E823BA92583F134007117DB /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8E823BC325840CAD007117DB /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8E823BC425840CC2007117DB /* GlobalVars.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8E823BC825840D57007117DB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8E823BC925840D65007117DB /* Films.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8E823B852583F082007117DB /* COSMOTV */ = {
+		8E823BA12583F134007117DB /* COSMOTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E823B942583F084007117DB /* Build configuration list for PBXNativeTarget "COSMOTV" */;
+			buildConfigurationList = 8E823BB42583F135007117DB /* Build configuration list for PBXNativeTarget "COSMOTV" */;
 			buildPhases = (
-				8E823B822583F082007117DB /* Sources */,
-				8E823B832583F082007117DB /* Frameworks */,
-				8E823B842583F082007117DB /* Resources */,
+				8E823B9E2583F134007117DB /* Sources */,
+				8E823B9F2583F134007117DB /* Frameworks */,
+				8E823BA02583F134007117DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -77,24 +127,24 @@
 			);
 			name = COSMOTV;
 			productName = COSMOTV;
-			productReference = 8E823B862583F083007117DB /* COSMOTV.app */;
+			productReference = 8E823BA22583F134007117DB /* COSMOTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E823B7E2583F082007117DB /* Project object */ = {
+		8E823B9A2583F134007117DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					8E823B852583F082007117DB = {
+					8E823BA12583F134007117DB = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 8E823B812583F082007117DB /* Build configuration list for PBXProject "COSMOTV" */;
+			buildConfigurationList = 8E823B9D2583F134007117DB /* Build configuration list for PBXProject "COSMOTV" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -102,44 +152,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E823B7D2583F082007117DB;
-			productRefGroup = 8E823B872583F083007117DB /* Products */;
+			mainGroup = 8E823B992583F134007117DB;
+			productRefGroup = 8E823BA32583F134007117DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E823B852583F082007117DB /* COSMOTV */,
+				8E823BA12583F134007117DB /* COSMOTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E823B842583F082007117DB /* Resources */ = {
+		8E823BA02583F134007117DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E823B8D2583F084007117DB /* Assets.xcassets in Resources */,
-				8E823B902583F084007117DB /* LaunchScreen.storyboard in Resources */,
+				8E823BB02583F135007117DB /* LaunchScreen.storyboard in Resources */,
+				8E823BAD2583F135007117DB /* Assets.xcassets in Resources */,
+				8E823BAB2583F134007117DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E823B822583F082007117DB /* Sources */ = {
+		8E823B9E2583F134007117DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E823B8A2583F083007117DB /* AppDelegate.swift in Sources */,
+				8E823BA82583F134007117DB /* FilmsViewController.swift in Sources */,
+				8E823BCA25840D65007117DB /* Films.swift in Sources */,
+				8E823BC525840CC2007117DB /* GlobalVars.swift in Sources */,
+				8E823BA62583F134007117DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E823B8E2583F084007117DB /* LaunchScreen.storyboard */ = {
+		8E823BA92583F134007117DB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8E823B8F2583F084007117DB /* Base */,
+				8E823BAA2583F134007117DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E823BAE2583F135007117DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E823BAF2583F135007117DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -147,7 +209,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8E823B922583F084007117DB /* Debug */ = {
+		8E823BB22583F135007117DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		8E823B932583F084007117DB /* Release */ = {
+		8E823BB32583F135007117DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +325,7 @@
 			};
 			name = Release;
 		};
-		8E823B952583F084007117DB /* Debug */ = {
+		8E823BB52583F135007117DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -282,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		8E823B962583F084007117DB /* Release */ = {
+		8E823BB62583F135007117DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
@@ -304,25 +366,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E823B812583F082007117DB /* Build configuration list for PBXProject "COSMOTV" */ = {
+		8E823B9D2583F134007117DB /* Build configuration list for PBXProject "COSMOTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E823B922583F084007117DB /* Debug */,
-				8E823B932583F084007117DB /* Release */,
+				8E823BB22583F135007117DB /* Debug */,
+				8E823BB32583F135007117DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E823B942583F084007117DB /* Build configuration list for PBXNativeTarget "COSMOTV" */ = {
+		8E823BB42583F135007117DB /* Build configuration list for PBXNativeTarget "COSMOTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E823B952583F084007117DB /* Debug */,
-				8E823B962583F084007117DB /* Release */,
+				8E823BB52583F135007117DB /* Debug */,
+				8E823BB62583F135007117DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E823B7E2583F082007117DB /* Project object */;
+	rootObject = 8E823B9A2583F134007117DB /* Project object */;
 }
