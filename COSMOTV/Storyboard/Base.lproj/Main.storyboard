@@ -168,7 +168,7 @@
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="264" height="385"/>
                                         <connections>
-                                            <outlet property="image" destination="QJT-X2-P2o" id="yFI-jR-Z7L"/>
+                                            <outlet property="imageFilms" destination="QJT-X2-P2o" id="IXO-Dq-P5E"/>
                                             <outlet property="nameFilms" destination="Fc1-cT-92t" id="QC1-ZX-DqK"/>
                                         </connections>
                                     </collectionViewCell>

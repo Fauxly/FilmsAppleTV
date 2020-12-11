@@ -14,6 +14,7 @@
 		8E823BB02583F135007117DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E823BAE2583F135007117DB /* LaunchScreen.storyboard */; };
 		8E823BC525840CC2007117DB /* GlobalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BC425840CC2007117DB /* GlobalVars.swift */; };
 		8E823BCA25840D65007117DB /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BC925840D65007117DB /* Films.swift */; };
+		8E823BCE258410FE007117DB /* GlobalFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BCD258410FE007117DB /* GlobalFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8E823BB12583F135007117DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E823BC425840CC2007117DB /* GlobalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVars.swift; sourceTree = "<group>"; };
 		8E823BC925840D65007117DB /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		8E823BCD258410FE007117DB /* GlobalFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8E823BC425840CC2007117DB /* GlobalVars.swift */,
+				8E823BCD258410FE007117DB /* GlobalFunc.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E823BCE258410FE007117DB /* GlobalFunc.swift in Sources */,
 				8E823BA82583F134007117DB /* FilmsViewController.swift in Sources */,
 				8E823BCA25840D65007117DB /* Films.swift in Sources */,
 				8E823BC525840CC2007117DB /* GlobalVars.swift in Sources */,
