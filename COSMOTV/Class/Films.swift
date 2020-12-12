@@ -38,7 +38,7 @@ struct Films: Codable {
 struct Datum: Codable {
     let id: Int
     let title: String
-    let kpID, imdbID, worldArtID: String?
+    let kp_id, imdb_id, worldArt_id: String?
     let type: TypeEnum
     let add, orig_title, year: String
     let translations: [String]
@@ -48,9 +48,9 @@ struct Datum: Codable {
 
     enum CodingKeys: String, CodingKey {
         case id, title
-        case kpID
-        case imdbID
-        case worldArtID
+        case kp_id
+        case imdb_id
+        case worldArt_id
         case type, add
         case orig_title
         case year, translations, quality, translation, update

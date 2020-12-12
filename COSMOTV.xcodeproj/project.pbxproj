@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E032C9C2584AD400073ABF1 /* FilmInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E032C9B2584AD400073ABF1 /* FilmInfo.swift */; };
 		8E823BA62583F134007117DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BA52583F134007117DB /* AppDelegate.swift */; };
 		8E823BA82583F134007117DB /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E823BA72583F134007117DB /* FilmsViewController.swift */; };
 		8E823BAB2583F134007117DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E823BA92583F134007117DB /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E032C9B2584AD400073ABF1 /* FilmInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmInfo.swift; sourceTree = "<group>"; };
 		8E823BA22583F134007117DB /* COSMOTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COSMOTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E823BA52583F134007117DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E823BA72583F134007117DB /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				8E823BC925840D65007117DB /* Films.swift */,
+				8E032C9B2584AD400073ABF1 /* FilmInfo.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				8E823BCE258410FE007117DB /* GlobalFunc.swift in Sources */,
 				8E823BA82583F134007117DB /* FilmsViewController.swift in Sources */,
 				8E823BCA25840D65007117DB /* Films.swift in Sources */,
+				8E032C9C2584AD400073ABF1 /* FilmInfo.swift in Sources */,
 				8E823BC525840CC2007117DB /* GlobalVars.swift in Sources */,
 				8E823BA62583F134007117DB /* AppDelegate.swift in Sources */,
 			);

@@ -8,7 +8,8 @@
 import UIKit
 
 extension UIImageView {
-    func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+    
+    func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit, id: String) {
         contentMode = mode
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard
@@ -19,11 +20,12 @@ extension UIImageView {
             else { return }
             DispatchQueue.main.async() { [weak self] in
                 self?.image = image
+                GlobalVars.imageCache.setObject(image, forKey: id as NSString)
             }
         }.resume()
     }
-    func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+    func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit, id: String) {
         guard let url = URL(string: link) else { return }
-        downloaded(from: url, contentMode: mode)
+        downloaded(from: url, contentMode: mode, id: id)
     }
 }
