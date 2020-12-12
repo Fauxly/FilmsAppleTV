@@ -25,7 +25,7 @@ class FilmsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var request = URLRequest(url: URL(string: GlobalVars.urlString + "short" + GlobalVars.token)!)
+        var request = URLRequest(url: URL(string: GlobalVars.urlString + "movies" + GlobalVars.token)!)
         request.httpMethod = "GET"
         let session = URLSession(configuration: URLSessionConfiguration.default)
         session.dataTask(with: request as URLRequest) { (data, response, error) -> Void in
@@ -45,11 +45,17 @@ class FilmsViewController: UIViewController {
         collectionView.dataSource = self
         
     }
+
 }
 
 extension FilmsViewController: UICollectionViewDelegate {
-    func collectionView(_ collectionViewMain: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
+        print("You tapped me")
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didUpdateFocusIn: UICollectionViewFocusUpdateContext, with: UIFocusAnimationCoordinator) {
+
         print("You tapped me")
     }
 }
@@ -67,12 +73,12 @@ extension FilmsViewController: UICollectionViewDataSource {
         
         //Кинопоиск апи для получения кадров и постеров фильмов!
         
-        if ((films.data[indexPath.row].kp_id) != nil) {
-            if let cachedImage = GlobalVars.imageCache.object(forKey: films.data[indexPath.row].kp_id! as NSString) {
+        if ((films.data[indexPath.row].kinopoiskID) != nil) {
+            if let cachedImage = GlobalVars.imageCache.object(forKey: films.data[indexPath.row].kinopoiskID as NSString) {
                 cell.imageFilms.image = cachedImage
                 print("ЖОПА", cachedImage)
             } else {
-                var request = URLRequest(url: URL(string: "https://kinopoiskapiunofficial.tech/api/v2.1/films/\(String(describing: films.data[indexPath.row].kp_id!))")!)
+                var request = URLRequest(url: URL(string: "https://kinopoiskapiunofficial.tech/api/v2.1/films/\(String(describing: films.data[indexPath.row].kinopoiskID))")!)
                 request.httpMethod = "GET"
                 request.setValue("e9848d74-bbe0-4679-96f9-37943e4ca745", forHTTPHeaderField: "X-API-KEY")
                 let session = URLSession(configuration: URLSessionConfiguration.default)
@@ -82,12 +88,12 @@ extension FilmsViewController: UICollectionViewDataSource {
                         print(filmsInfo)
                         if (filmsInfo.data.posterUrlPreview != nil) {
                             DispatchQueue.main.async {
-                                cell.imageFilms.downloaded(from: filmsInfo.data.posterUrlPreview!, id: films.data[indexPath.row].kp_id!)
+                                cell.imageFilms.downloaded(from: filmsInfo.data.posterUrlPreview!, id: films.data[indexPath.row].kinopoiskID)
 
                             }
                         } else {
                             cell.imageFilms.image = UIImage(named: "default-placeholder")
-                            GlobalVars.imageCache.setObject(UIImage(named: "default-placeholder")!, forKey: films.data[indexPath.row].kp_id! as NSString)
+                            GlobalVars.imageCache.setObject(UIImage(named: "default-placeholder")!, forKey: films.data[indexPath.row].kinopoiskID as NSString)
                         }
                         
                     } catch {
@@ -99,7 +105,9 @@ extension FilmsViewController: UICollectionViewDataSource {
         cell.imageFilms.contentMode = .scaleAspectFill
         cell.imageFilms.layer.cornerRadius = 30.0
         cell.imageFilms.clipsToBounds = true
-        cell.nameFilms.text = "\(films.data[indexPath.row].title)"
+        cell.nameFilms.attributedText =
+            NSMutableAttributedString()
+            .blackHighlight(" \(films.data[indexPath.row].ruTitle) ")
         return cell
     }
 }
