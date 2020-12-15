@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Films
 struct Films: Codable {
     let result: Bool
-    let data: [Datum]
+    var data: [Datum]
     let currentPage: Int
     let firstPageURL: String
     let from, lastPage: Int
@@ -47,6 +47,7 @@ struct Films: Codable {
 
 // MARK: - Datum
 struct Datum: Codable {
+    var tapped: Bool?
     let id: Int
     let ruTitle, origTitle, imdbID, kinopoiskID: String
     let defaultMediaID: Int?
