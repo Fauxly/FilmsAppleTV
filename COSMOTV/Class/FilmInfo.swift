@@ -1,10 +1,3 @@
-//
-//  FilmInfo.swift
-//  COSMOTV
-//
-//  Created by Maxim Pyatovky on 12.12.2020.
-//
-
 import Foundation
 
 // MARK: - FilmsInfo
