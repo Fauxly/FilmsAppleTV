@@ -1,10 +1,3 @@
-//
-//  GlobalVars.swift
-//  COSMOTV
-//
-//  Created by Maxim Pyatovky on 11.12.2020.
-//
-
 import UIKit
 
 
